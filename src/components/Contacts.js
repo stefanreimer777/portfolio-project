@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import emailjs from "emailjs-com";
+import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
 
 const Contacts = () => {
@@ -8,7 +8,7 @@ const Contacts = () => {
 
   const serviceID = 'service_ID';
   const templateID = 'template_ID';
-  const userID = 'user_RXtQk9xbkcuxeI8Wr9FD4';
+  const userID = 'user_Bu7s1Lo9YCV2D4NdEIuV9';
 
   const onSubmit = (data, r) => {
     sendEmail(
